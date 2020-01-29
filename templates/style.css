@@ -1,0 +1,49 @@
+
+/*
+Colors
+RoseWater: #D8A7B1;
+Spearmint: #B6E2D3;
+Cream: #FAE8E0;
+Hot Pink: #EF7c8E;
+
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+  font: 20px Roboto, sans-serif;
+  line-height: 1.8;
+  background-image: url("asanoha.png");
+  background-repeat: repeat;
+  color: #43464B;
+}
+
+.info-card {
+	margin: 1em;
+	padding: 1em;
+	background-color: #B6E2D3;
+	border-radius: 0.5cm;
+	text-align: left;
+	color: #43464B;
+}
+
+.photo-card {
+	margin-top: 2em;
+
+}
+
+.main-content {
+	width: 80%;
+	max-width: 80cm;
+	text-align: center;
+	margin: auto;
+}
+
+.my-button {
+	margin: 1em;
+	padding: 1em;
+	background-color: #B6E2D3;
+	border-radius: 0.5cm;
+	color: #43464B;
+}
