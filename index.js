@@ -1,11 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 //NOTE(ol): global path like .exe path in game programming
 const path = require('path');
 //
 
 const app = express();
+
+app.use(cors());
 
 ////////////// APP INITIED //////////////////
 
