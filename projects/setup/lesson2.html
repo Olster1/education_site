@@ -99,10 +99,27 @@
 	</p>
 
 	<h3>Quick Quiz:</h3>
-	<p>What is the command line called on your Operating System?</p>
-	<p>What is the command on your Operating System to run the compiler?</p>
-	<p>On Windows, what extra step do you have to do to run the compiler from the command line?</p>
-	<p>What extra bit of information do we have to tell the compiler, in order for it to actually make an executable?</p>
+	<p>What is the command line called on Windows & Mac? <a href="#q1" data-toggle="collapse">Click to see</a></p>
+	<div id="q1" class="collapse quiz-answer"><p>
+			Windows: Command Prompt
+			Mac: Terminal
+	</p></div>
+	<p>What is the command on Windows & Mac to run the compiler? <a href="#q2" data-toggle="collapse">Click to see</a></p>
+	<div id="q2" class="collapse quiz-answer"><p>
+			Windows: <span class="code-block">cl</span>
+			<br>
+			Mac: <span class="code-block">gcc</span>
+	</p></div>
+	<p>On Windows, what extra step do you have to do to run the compiler from the command line? <a href="#q3" data-toggle="collapse">Click to see</a></p>
+	<div id="q3" class="collapse quiz-answer"><p>
+			You have to run the <b>vcvarsall.bat</b> file, which is located in different locations depending on your Visual Studio year version.
+			For 2017 it is:
+			<div class="code-block">"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" x64</div>  
+	</p></div>
+	<p>What extra bit of information do we have to tell the compiler, in order for it to actually make an executable? <a href="#q4" data-toggle="collapse">Click to see</a></p>
+	<div id="q4" class="collapse quiz-answer"><p>
+			The file name of the code you want to compile. 
+	</p></div>
 
 <a href="/projects/setup/lesson1.html"><div class="my-button my-button-inline-left">
 	  		To Previous Lesson

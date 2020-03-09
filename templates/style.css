@@ -90,6 +90,32 @@ p {
 	width: 100%;
 }
 
+.code-block-left {
+	text-align: left;
+	padding: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: black;
+	color: yellow;
+	font-family: 'Roboto Mono', monospace;
+	width: 100%;
+}
+
 .example-image {
 	width: 80%;
+}
+
+.quiz-answer {
+	background-color: #FAE8E0;
+	padding: 0.1em;
+	border-radius: 0.7em;
+}
+
+.lesson-goals {
+	text-align: center;
+}
+
+ol {
+	margin-left: 10%;
+	margin-right: 10%;
 }
